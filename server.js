@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.get('/', (req, res) =>  {
     res.send('sure whatsup bitch');
 })
-
+console.log('hey buddy');
 
 
 
